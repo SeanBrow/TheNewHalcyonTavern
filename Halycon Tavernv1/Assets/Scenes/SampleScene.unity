@@ -2183,7 +2183,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386735386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 2.0631626
   m_Speed: 3.5
@@ -3944,6 +3944,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8632993429437876281, guid: 592173274a41c2844a89202dc9b1507d, type: 3}
+--- !u!1 &854453283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2709725555739476853, guid: 06fbde3d0a3386e45a88637abea2bfe4,
+    type: 3}
+  m_PrefabInstance: {fileID: 125508031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &854453287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854453283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5200981692046733814, guid: 06fbde3d0a3386e45a88637abea2bfe4, type: 3}
 --- !u!1001 &856461421
 PrefabInstance:
   m_ObjectHideFlags: 0
