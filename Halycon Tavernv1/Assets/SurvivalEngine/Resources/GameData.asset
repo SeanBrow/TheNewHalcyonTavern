@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9c6379ef86f62409a7f37c3a7c8967, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  game_time_mult: 144
+  day_light_dir_intensity: 1
+  day_light_ambient_intensity: 1
+  night_light_dir_intensity: 0.3
+  night_light_ambient_intensity: 0.5
+  rotate_shadows: 1
+  music_playlist: []
+  item_take_fx: {fileID: 1250092716873830579, guid: 5255c0c349817b141a042ea17c1859b8,
+    type: 3}
+  item_select_fx: {fileID: 5542460682299145915, guid: 3e98df8faeae4704c8112c016257430f,
+    type: 3}
+  item_merge_fx: {fileID: 5542460682299145915, guid: bc7f1331dd18cc946b7ef19d86e73a99,
+    type: 3}
+  action_progress: {fileID: 488225396156375650, guid: 4a98ed5078294664f82e44febf29548d,
+    type: 3}
+  items_folder: Items
+  constructions_folder: Constructions
+  plants_folder: Plants
+  characters_folder: Characters
