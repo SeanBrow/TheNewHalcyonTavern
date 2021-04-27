@@ -2688,7 +2688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npc: {fileID: 11400000, guid: 820389a1d26d0164eb59a9007592a942, type: 2}
-  player: {fileID: 0}
+  player: {fileID: 655236581}
   dialogueUI: {fileID: 1386174479}
   npcName: {fileID: 1011526235}
   npcDialogueBox: {fileID: 687673142}
@@ -3172,6 +3172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1913160714505050923, guid: 2dc7b53d909b50c4bb313e4e88d1cb87,
         type: 3}
+      propertyPath: freelook_mode
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913160714505050923, guid: 2dc7b53d909b50c4bb313e4e88d1cb87,
+        type: 3}
       propertyPath: follow_offset.y
       value: 1.5
       objectReference: {fileID: 0}
@@ -3184,6 +3189,16 @@ PrefabInstance:
         type: 3}
       propertyPath: lookat_offset.z
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913160714505050923, guid: 2dc7b53d909b50c4bb313e4e88d1cb87,
+        type: 3}
+      propertyPath: freelook_speed_x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913160714505050923, guid: 2dc7b53d909b50c4bb313e4e88d1cb87,
+        type: 3}
+      propertyPath: freelook_speed_y
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1913160714505050935, guid: 2dc7b53d909b50c4bb313e4e88d1cb87,
         type: 3}
@@ -3583,7 +3598,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9f132ca586e62394096b357d6b3f0d70, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.53
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3852,24 +3867,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1178615270}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &655236593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655236581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76b42272022c5f6409eeddb1fc7f2513, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npc: {fileID: 0}
-  player: {fileID: 0}
-  dialogueUI: {fileID: 0}
-  npcName: {fileID: 0}
-  npcDialogueBox: {fileID: 0}
-  playerResponse: {fileID: 0}
 --- !u!1 &660485980
 GameObject:
   m_ObjectHideFlags: 0
@@ -8165,6 +8162,16 @@ PrefabInstance:
     - target: {fileID: 2946928522140459501, guid: f7d19279e3aed324981280bf309cddcf,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511775144176669967, guid: f7d19279e3aed324981280bf309cddcf,
+        type: 3}
+      propertyPath: cam_rotate_left
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511775144176669967, guid: f7d19279e3aed324981280bf309cddcf,
+        type: 3}
+      propertyPath: cam_rotate_right
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
