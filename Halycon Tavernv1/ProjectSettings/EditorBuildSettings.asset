@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SurvivalEngine/Scenes/WorldGenMap2.unity
     guid: 1afbc08c5fa414f4e8ba2642396d0835
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 74808294af02941bf90d5c4303b0824b
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
