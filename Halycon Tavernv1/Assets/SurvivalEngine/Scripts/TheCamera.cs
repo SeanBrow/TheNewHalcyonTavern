@@ -22,8 +22,8 @@ namespace SurvivalEngine
         public float move_speed = 10f;
         public float rotate_speed = 90f;
         public float zoom_speed = 0.5f;
-        public float zoom_in_max = 0.5f;
-        public float zoom_out_max = 1f;
+        /*public float zoom_in_max = 0.5f;
+        public float zoom_out_max = 1f;*/
         public bool inverted_rotate = false;
 
         [Header("Mobile Only")]
@@ -44,7 +44,7 @@ namespace SurvivalEngine
         private Vector3 rotated_offset;
         private Vector3 current_offset;
         private float current_rotate = 0f;
-        private float current_zoom = 0f;
+        private float current_zoom = -.1f;
         private Transform target_transform;
         private bool is_locked = false;
 
@@ -97,9 +97,9 @@ namespace SurvivalEngine
             current_rotate += mouse.GetTouchRotate() * rotate_speed_touch;
 
             //Zoom 
-            current_zoom += mouse.GetTouchZoom() * zoom_speed_touch; //Mobile 2 finger zoom
+            /*current_zoom += mouse.GetTouchZoom() * zoom_speed_touch; //Mobile 2 finger zoom
             current_zoom += mouse.GetMouseScroll() * zoom_speed; //Mouse scroll zoom
-            current_zoom = Mathf.Clamp(current_zoom, -zoom_out_max, zoom_in_max);
+            current_zoom = Mathf.Clamp(current_zoom, -zoom_out_max, zoom_in_max);*/
 
             if (freelook_mode == FreelookMode.Hold)
                 SetLockMode(mouse.IsMouseHoldRight());
